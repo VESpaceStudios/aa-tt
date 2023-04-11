@@ -1,8 +1,8 @@
 # Импорт необходимых библиотек
 import io                                                               # для работы с файлами
-#import RPi.GPIO as GPIO                                                 # для работы с пинами Raspberry Pi
-#import Adafruit_DHT                                                     # для работы с датчиком DHT22
-#import mh_z19                                                           # для работы с датчиком CO2
+import RPi.GPIO as GPIO                                                 # для работы с пинами Raspberry Pi
+import Adafruit_DHT                                                     # для работы с датчиком DHT22
+import mh_z19                                                           # для работы с датчиком CO2
 import serial
 from http.server import BaseHTTPRequestHandler, HTTPServer              # для сервера
 

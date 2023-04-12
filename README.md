@@ -7,6 +7,9 @@
 4 - Земля (например 20 на плате или любой другой (GRND))
 Если три вывода, то 1 - питание, 2 - данные, 3 - земля
 
+Датчик DHT21
+http://wiki.amperka.ru/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B:dht-21
+
 Понадабятся библиотеки Адафрут, установим их их с гитхаба:
 sudo apt-get update
 sudo apt-get install build-essential python-dev python-openssl ubuntu
